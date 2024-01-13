@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+#button{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(173, 154, 154, 0.411);
+   height: 25px;
+   width: 70px;
+   border-radius: 20px;
+   padding: 5px;
+   margin: 20px;
+}
+#sun_moon{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem; 
+}
+#cercle{
+    position: absolute;
+    height: 25px;
+    background-color: white;
+    width: 25px;
+    border-radius: 50%;
+}
+img{
+    height: 25px;
+}
+#contaner{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    color: black;
+    text-align: center;
+    margin: 20px;
+    font-size: 4rem;
+    
+}
+#body{
+    height: 100vh;
+    width: 100vw;
+}
